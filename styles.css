@@ -1,0 +1,34 @@
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cards-container__item {
+  display: flex;
+  padding: 5px;
+  border: 1px solid #ddd;
+  flex-direction: column;
+  width: 400px;
+  height: 550px;
+  align-items: center;
+}
+
+.cards-container__item button {
+  align-self: flex-start;
+}
+.cards-container__item h2 {
+  align-self: flex-start;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
